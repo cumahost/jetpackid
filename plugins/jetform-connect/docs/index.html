@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumentasi JetForm Connect</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <header class="bg-indigo-900 text-white py-6 px-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <h1 class="text-2xl font-bold">Jetpack.id</h1>
+      <nav class="space-x-4">
+        <a href="/" class="hover:underline">Beranda</a>
+        <a href="/plugins/" class="hover:underline">Plugins</a>
+        <a href="/plugins/jetform-connect/" class="hover:underline">Tentang Plugin</a>
+        <a href="/demo/jetform-connect/" class="hover:underline">Demo</a>
+        <a href="/collab/" class="hover:underline">Kolaborasi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">📘 Dokumentasi JetForm Connect</h2>
+
+    <section class="mb-12">
+      <h3 class="text-xl font-semibold mb-2">1. Instalasi</h3>
+      <p class="text-gray-700 mb-2">Unduh dari <a href="https://wordpress.org/plugins/jetform-connect/" class="text-indigo-600 hover:underline" target="_blank">WordPress.org</a> atau unggah manual file .zip plugin.</p>
+      <pre class="bg-gray-100 p-4 text-sm rounded">Dashboard → Plugins → Tambah Baru → Upload Plugin → Aktifkan</pre>
+    </section>
+
+    <section class="mb-12">
+      <h3 class="text-xl font-semibold mb-2">2. Membuat Formulir</h3>
+      <p class="text-gray-700 mb-2">Masuk ke menu <strong>JetForm</strong> di admin. Klik <em>Tambah Formulir</em>.</p>
+      <ul class="list-disc pl-6 text-gray-700">
+        <li>Masukkan nama formulir</li>
+        <li>Tambah field: Nama, Email, Telepon, dsb</li>
+        <li>Simpan & ambil shortcode</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h3 class="text-xl font-semibold mb-2">3. Integrasi</h3>
+      <p class="text-gray-700 mb-2">Gunakan tab <strong>Integrasi</strong> untuk hubungkan ke:</p>
+      <ul class="list-disc pl-6 text-gray-700">
+        <li>📧 Email (SMTP)</li>
+        <li>📄 Google Sheets</li>
+        <li>📬 Mailchimp</li>
+        <li>🔗 Webhook / API</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h3 class="text-xl font-semibold mb-2">4. Shortcode & Embed</h3>
+      <p class="text-gray-700 mb-2">Gunakan shortcode seperti berikut untuk menampilkan formulir:</p>
+      <pre class="bg-gray-100 p-4 text-sm rounded">[jetform id="123"]</pre>
+      <p class="text-gray-700">Tempelkan ke halaman, post, atau widget sesuai kebutuhan.</p>
+    </section>
+
+    <section class="mb-12">
+      <h3 class="text-xl font-semibold mb-2">5. Dukungan Bahasa</h3>
+      <p class="text-gray-700">Semua teks dapat diterjemahkan via file <code>.pot</code> atau menggunakan plugin seperti Loco Translate.</p>
+    </section>
+
+    <div class="text-center mt-16">
+      <a href="/demo/jetform-connect/" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700">Lihat Demo Plugin →</a>
+    </div>
+  </main>
+
+  <footer class="bg-gray-900 text-gray-400 text-sm py-6 px-4 mt-12">
+    <div class="max-w-7xl mx-auto text-center">
+      © 2025 Jetpack.id — Dokumentasi ini akan terus diperbarui sesuai perkembangan plugin.
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo JetForm Connect</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <header class="bg-indigo-900 text-white py-6 px-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <h1 class="text-2xl font-bold">Jetpack.id</h1>
+      <nav class="space-x-4">
+        <a href="/" class="hover:underline">Beranda</a>
+        <a href="/plugins/jetform-connect/" class="hover:underline">Plugin</a>
+        <a href="/docs/jetform-connect/" class="hover:underline">Dokumentasi</a>
+        <a href="/collab/" class="hover:underline">Kolaborasi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">🧪 Demo JetForm Connect</h2>
+    <p class="text-gray-700 mb-8 text-center">Berikut adalah contoh formulir live yang dibuat dengan JetForm Connect. Silakan isi untuk mencoba fitur form, validasi, dan notifikasi email.</p>
+
+    <form action="#" method="POST" class="bg-white p-6 rounded shadow-md space-y-4">
+      <div>
+        <label class="block mb-1 font-medium">Nama Lengkap</label>
+        <input type="text" name="nama" required class="w-full border-gray-300 rounded px-4 py-2">
+      </div>
+      <div>
+        <label class="block mb-1 font-medium">Email</label>
+        <input type="email" name="email" required class="w-full border-gray-300 rounded px-4 py-2">
+      </div>
+      <div>
+        <label class="block mb-1 font-medium">Pesan</label>
+        <textarea name="pesan" rows="4" required class="w-full border-gray-300 rounded px-4 py-2"></textarea>
+      </div>
+      <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700">Kirim</button>
+    </form>
+
+    <p class="text-center text-sm text-gray-500 mt-8">Formulir ini hanya untuk demo. Data tidak disimpan atau dikirim ke email.</p>
+  </main>
+
+  <footer class="bg-gray-900 text-gray-400 text-sm py-6 px-4 mt-12">
+    <div class="max-w-7xl mx-auto text-center">
+      © 2025 Jetpack.id — Demo JetForm Connect disediakan untuk eksplorasi publik.
+    </div>
+  </footer>
+</body>
+</html>
